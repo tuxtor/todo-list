@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"   
+      xmlns:h="http://java.sun.com/jsf/html">
+ 
+    <h:body>
+    	<h1>Item Added!</h1>
+        <h:panelGrid columns="2">
+            <h:outputLabel for="titleField">Title:</h:outputLabel>
+            <h:outputText id="titleField" value="#{itemManagedBean.item.title}" />
+            <h:outputLabel for="descriptionField">Description:</h:outputLabel>
+            <h:outputText id="descriptionField" value="#{itemManagedBean.item.description}" />
+        </h:panelGrid>
+    	
+    </h:body>
+</html>
